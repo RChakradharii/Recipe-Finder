@@ -1,0 +1,78 @@
+Container Styles
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card {
+    background-color: #f0b1ab; 
+    /* background-image: url("/Recipe\ Finder.jpg"); */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  
+   input#searchQuery {
+    padding: 10px;
+    width: 300px;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+
+
+  }
+
+  button:hover {
+    background-color: #218838;
+  }
+  
+  
+   
+  #recipeDetails {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  
+  .recipe-card {
+    width: 200px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  
+  .recipe-card .content {
+    padding: 10px;
+  }
+  
+  .recipe-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
